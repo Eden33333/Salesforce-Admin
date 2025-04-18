@@ -1,6 +1,6 @@
 # Salesforce-Admin
 
-## 
+## Configuration Setup I
 - Locale setting
 Define how data, time, address, currency, name and number fields are desplayed
   - Company wide locale set(e.g. date/money)
@@ -27,6 +27,10 @@ Define how data, time, address, currency, name and number fields are desplayed
   - multi-currency must be enabled in company information page[every person can show different currency] *inreversibale*
       - Corporate currency is defined
       - Parenthetiical Currency Conversion is enable (in the parethesss)
+      - Setting
+        - USER CURRENCY
+        - EXCHANGE RATES
+        - DATED EXHANGES RATES: date oppoprtunities close
 - Considerations related to Orangization ID
   - 'org ID' is a unique 15 character identifier[product/sandbox]
   - Found in **coompany information page**
