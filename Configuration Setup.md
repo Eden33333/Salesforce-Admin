@@ -28,9 +28,9 @@ Define how data, time, address, currency, name and number fields are desplayed
       - Corporate currency is defined
       - Parenthetiical Currency Conversion is enable (in the parethesss)
       - Setting
-        - USER CURRENCY
-        - EXCHANGE RATES
-        - DATED EXHANGES RATES: date oppoprtunities close
+        - USER CURRENCY: Advanced User Details
+        - EXCHANGE RATES: Manage Currrency Page
+        - DATED EXHANGES RATES: AdvancedCurrency Management; date oppoprtunities close
 - Considerations related to Orangization ID
   - 'org ID' is a unique 15 character identifier[product/sandbox]
   - Found in **coompany information page**
@@ -43,6 +43,10 @@ Define how data, time, address, currency, name and number fields are desplayed
 - bussiness hour/holidays
   - in case escalation rules and entitlement process
 - custom fiscal years and fiscal year configuration
+    - Standard: Gregorian calendar
+    - Fiscal year if it's the ending month can be next year
+    - If custom fiscal year is enabled, it cannot be reverted back to standard, you can choose gregorian calendar
+    - impact forecasts, reports, and quotas
 - data and file storage
   - Data storage used by creating records(most is 2KB)
   - file storage used by attachments(e.g. photos)
